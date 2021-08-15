@@ -1,16 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-image: url(https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif);
+  background-size: cover;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App-header {
@@ -21,18 +16,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;  
 }
 
-.App-link {
-  color: #61dafb;
+.todoList{
+  width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check{
+  border-radius: 10px;
 }
