@@ -18,9 +18,9 @@ function Player({ player }) {
           height="198"
           src="https://www.youtube.com/embed/5qap5aO4i9A?controls=0"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       )}
     </>

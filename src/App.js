@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Player from "./components/Player";
 import PlayerToggle from "./components/PlayerToggle";
@@ -9,7 +9,7 @@ import Timer from "./components/Timer";
 
 function App() {
   const [todo, setTodo] = useState([{ id: 1 }]);
-  const [player, setPlayer] = useState("spotify");
+  const [player, setPlayer] = useState("youtube");
 
   const handleAdd = () => {
     const newItem = { id: todo.length + 1 };
@@ -38,7 +38,7 @@ function App() {
         </div>
 
         <div>
-          <Timer />
+          <Timer/>
         </div>
 
         <div className="pt-20">
